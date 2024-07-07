@@ -1,12 +1,13 @@
  .nav{
-  position: relative;
+    position: sticky;
+    top: 0;
     display: flex;
-    background-color: rgba(14, 241, 67, 0.204);
+    background-color: rgba(23, 202, 65, 0.204);
     color: black;
     margin-left: -10px;
     margin-right: -49px;
     left: 6px;
-  
+  z-index: 12;
   }
   ul{
     display: flex;
@@ -22,6 +23,7 @@
     font-size: 20px;
     cursor: pointer;
     font-size: 25px;
+    color: black;
   }
   .pl{
     position: relative;
@@ -29,6 +31,7 @@
     font-size: 20px;
     cursor: pointer;
     font-size: 25px;
+    color: black;
   }
   .ce{
     position: relative;
@@ -36,6 +39,7 @@
     font-size: 20px;
     cursor: pointer;
     font-size: 25px;
+    color: black;
   }
   .ov{
     position: relative;
@@ -43,6 +47,7 @@
     font-size: 20px;
     cursor: pointer;
     font-size: 30px;
+    color: black;
   }
   .box{
     display: flex;
@@ -361,7 +366,7 @@ img{
     display: flex;
     flex-direction: column;
 }
-.pla{
+#pla{
   text-align: center;
   position: relative;
 }
@@ -379,4 +384,20 @@ img{
   margin: 10px;
   position: relative;
   left: 30px;
+}
+.f1{
+  margin-top: 50px;
+}
+.faq1{
+  border: 2px;
+  border:solid black;
+  border-bottom: 20px ;
+}
+.sum{
+  font-size: 30px;
+  margin-left: 20px;
+}
+.sha1{
+  font-size: 20px;
+  margin-left: 70px;
 }
