@@ -1,0 +1,178 @@
+ .nav{
+  position: relative;
+    display: flex;
+    background-color: rgba(14, 241, 67, 0.204);
+    color: black;
+    margin-left: -20px;
+    margin-right: -8px;
+
+  }
+  ul{
+    display: flex;
+    list-style: none;font-size: 50px;
+    margin-left: 680px;
+  }
+  ul{
+    text-align: end;
+  }
+  .fa{
+    margin-left: 20px;
+    font-size: 20px;
+  }
+  .pl{
+    margin-left: 40px;
+    font-size: 20px;
+  }
+  .ce{
+    margin-left: 60px;
+    font-size: 20px;
+  }
+  .ov{
+    margin-left: 100px;
+    font-size: 20px;
+  }
+  .box{
+    display: flex;
+    flex-direction: column;
+    flex-direction: row;
+    background-color: black;
+    border: 50px;
+    border-color: black;
+    width: 1250px;
+    height: 620px;
+    color: white;
+    padding-top: 30px;
+    margin-left: -15px;
+  }
+  .form{
+    position: relative;
+    display:flex;
+    flex-direction: column;
+    background-color: white;
+    border: 50px;
+    border-color: white;
+    width: 500px;
+    height: 400px;
+    right: 270px;
+    top: 120px;
+    color: black;
+    font-size: 20px;
+  }
+  h2{
+    margin-left: 130px;
+    display: flex;
+  }
+  label{
+    display: flex;
+    margin-left: 10px;
+
+  }
+  input{
+    display: flex;
+    margin-left: 10px;
+    font-size: 20px;
+  }
+  .last{
+    margin-top: 20px;
+  }
+  .email{
+    margin-top: 20px;
+  }
+  .phone{
+    margin-top: 20px;
+  }
+  .gender{
+    margin-top: 20px;
+    margin-right: 10px;
+  }
+  .dob{
+    margin-top: 20px;
+  }
+  .sub{
+    margin-top: 40px;
+    margin-left: 180px;
+    border-radius: 50px;
+  }
+  input[type="submit"]
+  {
+      border: none;
+      outline: none;
+      height: 40px;
+      width: 90px;
+      background: #2196f3;
+      color: #fff;
+      font-size: 18px;
+      border-radius: 20px;
+  
+  }
+  input[type="submit"]:hover
+  {
+      cursor: pointer;
+      background: #0097a7;
+  }
+  
+  a
+  {
+      text-decoration: none;
+      font-size: 16px;
+      line-height: 20px;
+      color: #069818;
+  }
+  
+  
+  a:hover
+  {
+      color: red;
+  }
+  .col{
+    color:orange;
+  }
+.main{
+  position: relative;
+  display: inline;
+  left: 300px;
+}
+.two{
+  text-align: center;
+  margin-top: 30px;
+  font-size: 25px;
+}
+.three{
+  text-align: center;
+  margin-left: 90px;
+  margin-right: 90px;
+  margin-top: 15px;
+}
+.box3{
+  position: relative;
+    left: 100px;
+    width: 900px;
+    height: 300px;
+    border: 2px solid black;
+    padding: 50px;
+    margin: 20px;
+    font-size: 18px;
+  }
+h1{
+  position: relative;
+  bottom: 20px;
+  text-align: center;
+}
+.point{
+  margin-top:10px;
+}
+.point1{
+  position: relative;
+  left: 500px;
+  bottom: 38px;
+}
+.point3{
+  position: relative;
+  left: 500px;
+  bottom: 38px;
+}
+.point5{
+  position: relative;
+  left: 500px;
+  bottom: 38px;
+}
