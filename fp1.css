@@ -3,13 +3,14 @@
     display: flex;
     background-color: rgba(14, 241, 67, 0.204);
     color: black;
-    margin-left: -20px;
-    margin-right: -8px;
-
+    margin-left: -10px;
+    margin-right: -49px;
+    right: 35px;
+  
   }
   ul{
     display: flex;
-    list-style: none;font-size: 50px;
+    list-style: none;
     margin-left: 680px;
   }
   ul{
@@ -18,18 +19,26 @@
   .fa{
     margin-left: 20px;
     font-size: 20px;
+    cursor: pointer;
+    font-size: 25px;
   }
   .pl{
     margin-left: 40px;
     font-size: 20px;
+    cursor: pointer;
+    font-size: 25px;
   }
   .ce{
     margin-left: 60px;
     font-size: 20px;
+    cursor: pointer;
+    font-size: 25px;
   }
   .ov{
     margin-left: 100px;
     font-size: 20px;
+    cursor: pointer;
+    font-size: 30px;
   }
   .box{
     display: flex;
@@ -38,7 +47,7 @@
     background-color: black;
     border: 50px;
     border-color: black;
-    width: 1250px;
+    width: 1270px;
     height: 620px;
     color: white;
     padding-top: 30px;
@@ -175,4 +184,134 @@ h1{
   position: relative;
   left: 500px;
   bottom: 38px;
+}
+.box4{
+  position: relative;
+  left: 10px;
+    width: 1100px;
+    height: 700px;
+    background-color: rgb(235, 248, 229);
+    padding: 50px;
+    margin: 20px;
+    font-size: 18px;
+}
+.syllabus{
+  text-align: center;
+
+}
+summary{
+  position: relative;
+  top: 20px;
+}
+details{
+  background-color: white;
+}
+.minibox1{
+  position: relative;
+  width: 400px;
+  height: 70px;
+  background-color: white;
+  margin-bottom: 70px;
+  z-index: 8;
+  cursor: pointer;
+}
+.minibox2{
+  position: relative;
+  width: 400px;
+  height: 70px;
+  background-color: white;
+  margin-bottom: 70px;
+  z-index: 7;
+  cursor: pointer;
+}
+.minibox3{
+  position: relative;
+  width: 400px;
+  height: 70px;
+  background-color: white;
+   margin-bottom: 70px;
+  z-index: 6;
+  cursor: pointer;
+}
+.minibox4{
+  position: relative;
+  width: 400px;
+  height: 70px;
+  background-color: white;
+  margin-bottom: 10px;
+  z-index: 5;
+  cursor: pointer;
+}
+.whi{
+  position: relative;
+  bottom: 29px;
+  background-color: white;
+  padding: 20px;
+}
+.minibox5{
+  position: relative;
+  width: 400px;
+  height: 70px;
+  background-color: white;
+  bottom: 187px;
+  z-index: 4;
+  cursor: pointer;
+
+}
+.minibox6{
+  position: relative;
+  width: 400px;
+  height: 70px;
+  background-color: white;
+  bottom: 120px;
+  cursor: pointer;
+}
+.minibox7{
+  position: relative;
+  width: 400px;
+  height: 70px;
+  background-color: white;
+  bottom: 50px;
+  cursor: pointer;
+}
+.minibox8{
+  position: relative;
+  width: 400px;
+  height: 70px;
+  background-color: white;
+  bottom: -29px;
+  cursor: pointer;
+}
+.no5{
+  position: relative;
+  left: 640px;
+  bottom: 320px;
+  display: block;
+}
+.minibox1:hover{
+  color: red;
+}
+.minibox2:hover{
+  color: red;
+}
+.minibox3:hover{
+  color: red;
+}
+.minibox4:hover{
+  color: red;
+}
+.minibox5:hover{
+  color: red;
+}
+.minibox6:hover{
+  color: red;
+}
+.minibox7:hover{
+  color: red;
+}
+.minibox8:hover{
+  color: red;
+}
+p{
+  color: black;
 }
